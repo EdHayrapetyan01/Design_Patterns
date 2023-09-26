@@ -1,0 +1,30 @@
+FACADE:
+
+Real-world analogy: Think of a modern car's ignition system. When you start your car,
+you turn the key or press the ignition button, and the engine starts. 
+Behind the scenes, several complex processes like fuel injection, ignition timing, and engine control are involved,
+but you don't need to understand these details. The ignition key or button acts as a facade, simplifying the process for you.
+
+In software: The Facade pattern provides a simplified interface to a complex subsystem,
+making it easier to use and shielding clients from the system's inner workings.
+
+See code example of car enginge: 
+
+
+
+PROXY:
+
+Imagine you want to enter a highly secure bank vault. However, before you can enter, you must go through
+multiple security checks. These checks include verifying your identity, ensuring you have proper authorization,
+and making sure you are not carrying any prohibited items.
+
+Real Subject (Bank Security Guard): The actual security guard stationed at the vault's entrance is the real subject.
+They have the authority to grant or deny access to the vault.
+
+Proxy (Bank Security Receptionist): The proxy, in this case, is the bank security receptionist. 
+Before you can enter the vault area, you must first interact with the receptionist. 
+The receptionist checks your identification, verifies your authorization, and ensures you don't 
+have any prohibited items. Only if you pass these checks will you be allowed to proceed to the security 
+guard and enter the vault.
+
+

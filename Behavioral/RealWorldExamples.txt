@@ -1,0 +1,32 @@
+OBSERVER: The Observer pattern is a design pattern that defines a one-to-many dependency 
+between objects, so when one object (the subject) changes its state, all its dependents (observers)
+are notified and updated automatically.
+
+
+Example: Event Invitations
+
+Imagine you're hosting a party and want to invite friends. When the party details change, you want your friends to know.
+
+In this scenario:
+
+You (the host) are the subject (observable).
+
+Your friends are observers (subscribers).
+
+
+MOMENTO:
+
+
+The Memento design pattern is a behavioral pattern in software design. It's used to capture and externalize the internal state of an object without violating encapsulation, allowing the object to be restored to a previous state. Let's illustrate the Memento pattern in JavaScript with a real-life and simple example:
+
+Real-Life Analogy: Text Editor Undo
+
+Imagine you are using a simple text editor that allows you to write and edit text. You want to implement an "undo" feature that lets you revert to previous versions of your document. This feature can be modeled using the Memento pattern.
+
+Here's how it works:
+
+Originator (Text Editor): This represents the object whose state you want to capture. In our case, it's the text editor.
+
+Memento: This is an object that stores the state of the originator. In our example, it will store the text content.
+
+Caretaker: This is responsible for keeping track of and managing the mementos. It decides when to save a snapshot (memento) of the text editor's state and when to restore it.
